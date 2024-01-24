@@ -1,22 +1,23 @@
 body {
-    font-family: 'Museo Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #FFF4E4;
+    background-color: #f3f1e0;
     color: #333;
 }
 
 header {
     background-color: #B3B995;
     padding: 10px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px rgba(56, 34, 11, 0.145);
+    display: flex;
+    justify-content: center;
 }
 
-header h1 {
-    font-family: 'Simplifica', sans-serif;
-    font-size: 1.8em;
-    margin: 0;
+header img {
+    height: 6.5em;
+
 }
 
 nav ul {
@@ -36,18 +37,51 @@ nav a {
     font-weight: bold;
 }
 
+nav img {
+    height: 6em;
+}
+
+section:last-of-type {
+    position: fixed;
+    bottom: 0;
+    border: none;
+    background-color:#f3f1e0;
+    margin: 0;
+}
+
 section {
     padding: 20px;
 }
 
 section h1, section h2 {
-    font-family: 'Simplifica', sans-serif;
-    color: #333;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.2em;
+    margin: 10%;
+    color: #141f16;
 }
+
+section {
+    border: 1px solid #B3B995; 
+    border-radius: 8px; 
+    padding: 20px;
+    margin: 20px 0; 
+}
+
+
+.intro-foto {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+
+
 
 footer {
     background-color: #A9B388;
     color: #333;
     text-align: center;
     padding: 10px;
+    margin-bottom: 10em;
 }
